@@ -2,7 +2,7 @@
 .header__text_block {
     display: grid;
     gap: 55px;
-    height: min-content;
+    block-size: min-content;
   }
   
 .header__text_block-title {
@@ -36,7 +36,7 @@
     }
 
     .header__text_block-text {
-      width: 364px;
+      inline-size: 364px;
       justify-self: end;
       margin: 0;
     }
@@ -53,7 +53,7 @@
     }
 
     .header__text_block-text {
-        width: 491px;
+        inline-size: 491px;
 
     }
 }

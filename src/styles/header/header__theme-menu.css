@@ -8,7 +8,7 @@
     display: grid;
     gap: 10px;
     list-style: none;
-    height: min-content;
+    block-size: min-content;
   }
   
   .header__theme-menu-button {

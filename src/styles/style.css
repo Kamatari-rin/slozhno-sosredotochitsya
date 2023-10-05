@@ -17,7 +17,7 @@
   display: grid;
   position: relative;
   gap: 10px;
-  height: calc(100vh - 20px);
+  block-size: calc(100vh - 20px);
 }
 
 .content {
@@ -29,7 +29,7 @@
 .footer {
   display: grid;
   position: relative;
-  height: calc(100vh - 20px);
+  block-size: calc(100vh - 20px);
   align-content: space-around;
 }
 
@@ -52,12 +52,12 @@
   }
 
   .header {
-    height: calc(100vh - 40px);
+    block-size: calc(100vh - 40px);
   }
 
   .footer {
     justify-content: center;
-    height: calc(100vh - 40px);
+    block-size: calc(100vh - 40px);
   }
 }
 

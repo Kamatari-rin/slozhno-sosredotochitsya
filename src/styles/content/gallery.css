@@ -6,7 +6,7 @@
 }
 
 .gallery-item {
-    width: 100%;
+    inline-size: 100%;
     container: gallery-item / inline-size;
 }
 
@@ -20,7 +20,7 @@
 
     .gallery-item {
         object-fit: cover;
-        height: 100%;
+        block-size: 100%;
     }
 
     .gallery-item:nth-child(1) {

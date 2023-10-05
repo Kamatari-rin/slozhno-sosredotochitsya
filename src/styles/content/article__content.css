@@ -26,7 +26,7 @@
   }
 
   .article__content:nth-child(2) .article__content-title {
-    max-width: 236px;
+    max-inline-size: 236px;
   }
 }
 
@@ -43,6 +43,6 @@
   }
 
   .article__content:nth-child(2) .article__content-title {
-    max-width: 315px;
+    max-inline-size: 315px;
   }
 }
