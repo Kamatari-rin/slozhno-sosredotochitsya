@@ -1,0 +1,30 @@
+
+:root {
+  --retro-pink-pop: #FF0070;
+  --midnight: #000028;
+  --psychedelic-purple: #DB00FF;
+  --bunny-cake: #F1B2CE;
+
+  --sugarwinkle: #FFC2E6;
+  --shimmering-love: #FF8DCB;
+  --sinister-minister: #353430;
+
+  --main-font: 'IBM Plex Mono';
+  --default-font-size: 18px;
+
+  --mobile-accent-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --desk--accent-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+
+  --default-font-weight: 400;
+  --accent-font-weight: 700;
+
+  --default-line-height: 130%;
+  --accent-line-height: 82.5%;
+
+  --mobile-content-margin: 10px;
+  --mobile-article-margin: 50px;
+  --default-margin: 20px;
+  --desktop-margin: 80px;
+  --first-desktop-margin: 60px;
+}
+

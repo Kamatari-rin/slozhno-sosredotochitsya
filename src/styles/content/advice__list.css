@@ -1,0 +1,30 @@
+
+.advice__list {
+    display: grid;
+    gap: 20px;
+}
+
+.advice__list-item {
+    display: grid;
+    gap: 10px;
+}
+
+.advice__list-title {
+    font-family: var(--main-font, sans-serif);
+    font-size: var(--default-font-size);
+    font-style: normal;
+    font-weight: var(--default-font-weight);
+    line-height: var(--default-line-height);
+    color: var(--subtitle-color);
+    background-color: var(--accent-color);
+}
+
+.advice__list-text {
+    font-family: var(--main-font, sans-serif);
+    font-size: var(--default-font-size);
+    font-style: normal;
+    font-weight: var(--default-font-weight);
+    line-height: var(--default-line-height);
+    color: var(--text-color);
+}
+

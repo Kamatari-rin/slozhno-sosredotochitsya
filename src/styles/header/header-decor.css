@@ -1,0 +1,43 @@
+.decorated-zone::after,
+.decorated-zone::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
+}
+
+.decorated-zone::before {
+  inset-inline-end: 0;
+  border-inline-end: 1px solid var(--decor-color);
+  border-block-start: 1px solid var(--decor-color);
+  background-image: url(../../images/ellipse.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.decorated-zone::after {
+  inset-block-end: 0;
+  border-inline-start: 1px solid var(--decor-color);
+  border-block-end: 1px solid var(--decor-color);
+}
+
+.header__decor-text {
+  display: block;
+  position: absolute;
+  inset-inline-end: 38px;
+  margin: 0;
+  font-family: var(--main-font, sans-serif);
+  font-size: var(--default-font-size);
+  font-weight: var(--default-font-weight);
+  font-style: normal;
+  line-height: 138%;
+  color: var(--accent-color);
+}
+
+@container (inline-size > 728px) {
+
+  .header__decor-text {
+    inset-inline-end: 30px;
+  }
+}

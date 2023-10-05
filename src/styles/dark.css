@@ -1,0 +1,32 @@
+
+@media (prefers-color-scheme: dark) {
+  
+  :root {
+    --accent-color: var(--retro-pink-pop);
+    --decor-color: var(--retro-pink-pop);
+    --header-title: var(--psychedelic-purple);
+    --article-title: var(--retro-pink-pop);
+    --subtitle-color: var(--midnight);
+    --text-color: var(--bunny-cake);
+    --text-shadow-header: 4px 4px 0 var(--accent-color);
+    --text-shadow-footer: 2px 2px 0 var(--accent-color);
+    --text-shadow-link: 1px 1px 0 var(--accent-color);
+    }
+
+    .page.theme_auto {
+      background-image: url(../images/cover-image-dark.png);
+    }
+}
+
+.page.theme_dark {
+  --accent-color: var(--retro-pink-pop);
+  --decor-color: var(--retro-pink-pop);
+  --header-title: var(--psychedelic-purple);
+  --article-title: var(--retro-pink-pop);
+  --subtitle-color: var(--midnight);
+  --text-color: var(--bunny-cake);
+  --text-shadow-header: 4px 4px 0 var(--accent-color);
+  --text-shadow-footer: 2px 2px 0 var(--accent-color);
+  --text-shadow-link: 1px 1px 0 var(--accent-color);
+  background-image: url(../images/cover-image-dark.png);
+}

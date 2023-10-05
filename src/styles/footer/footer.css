@@ -1,0 +1,21 @@
+
+.footer__title {
+    font-family: var(--main-font, sans-serif);
+    font-size: var(--mobile-accent-font-size);
+    font-style: normal;
+    font-weight: var(--accent-font-weight);
+    line-height: var(--accent-line-height);
+    color: var(--header-title);
+    text-shadow: var(--text-shadow-footer);
+}
+
+.footer.decorated-zone::before {
+    background-image: none;
+}
+
+@container (inline-size > 728px) {
+
+    .footer__title {
+      font-size: var(--desk--accent-font-size);
+    }
+}
