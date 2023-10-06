@@ -42,7 +42,7 @@
     }
 }
 
-@container (inline-size > 985px) {
+@container (inline-size > 984px) {
 
     .header__text_block {
         gap: 114px;

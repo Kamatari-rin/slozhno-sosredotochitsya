@@ -17,11 +17,11 @@
 @container (inline-size > 727px) {
     
   .article__content:nth-child(odd) {
-    grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
+    grid-template-columns: minmax(236px, 315px) minmax(472px, calc(100vw - 315px));
     gap: 20px;
   }
 
-  .article__content:nth-child(odd) :not(.article__content-title) {
+  .article__content:nth-child(1) :not(.article__content-title) {
     grid-column: 2 / 3;
   }
 
@@ -33,7 +33,7 @@
 @container (inline-size > 984px) {
   
   .article__content:nth-child(2) {
-    grid-template-columns: repeat(3, 315px);
+    grid-template-columns: repeat(3, minmax(315px, calc(100% / 3)));
     align-items: start;
     gap: 20px;
   }
