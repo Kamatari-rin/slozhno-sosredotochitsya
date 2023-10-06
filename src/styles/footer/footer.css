@@ -1,6 +1,6 @@
 
 .footer__title {
-    font-family: var(--main-font, sans-serif);
+    font-family: var(--main-font, monospace);
     font-size: var(--mobile-accent-font-size);
     font-style: normal;
     font-weight: var(--accent-font-weight);
@@ -13,9 +13,16 @@
     background-image: none;
 }
 
-@container (inline-size > 728px) {
+@container (inline-size > 727px) {
 
     .footer__title {
       font-size: var(--desk--accent-font-size);
+    }
+}
+
+@container (inline-size > 985px) {
+
+    .footer__title {
+        text-shadow: 2px 2px var(--retro-pink-pop);
     }
 }

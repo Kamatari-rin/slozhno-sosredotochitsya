@@ -1,7 +1,5 @@
-
-@media (prefers-color-scheme: dark) {
   
-  :root {
+:root {
     --accent-color: var(--retro-pink-pop);
     --decor-color: var(--retro-pink-pop);
     --header-title: var(--psychedelic-purple);
@@ -10,12 +8,7 @@
     --text-color: var(--bunny-cake);
     --text-shadow-header: 4px 4px 0 var(--accent-color);
     --text-shadow-footer: 2px 2px 0 var(--accent-color);
-    --text-shadow-link: 1px 1px 0 var(--accent-color);
-    }
-
-    .page.theme_auto {
-      background-image: url(../images/cover-image-dark.png);
-    }
+    --text-shadow-link: 1.3px 1.3px 0 var(--accent-color);
 }
 
 .page.theme_dark {
@@ -27,6 +20,10 @@
   --text-color: var(--bunny-cake);
   --text-shadow-header: 4px 4px 0 var(--accent-color);
   --text-shadow-footer: 2px 2px 0 var(--accent-color);
-  --text-shadow-link: 1px 1px 0 var(--accent-color);
+  --text-shadow-link: 1.3px 1.3px 0 var(--accent-color);
+  
+}
+
+html:has(.page.theme_dark) {
   background-image: url(../images/cover-image-dark.png);
 }

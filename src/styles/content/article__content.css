@@ -5,7 +5,7 @@
   }
 
 .article__content-title {
-    font-family: var(--main-font, sans-serif);
+    font-family: var(--main-font, monospace);
     font-size: var(--default-font-size);
     font-style: normal;
     font-weight: var(--accent-font-weight);
@@ -14,7 +14,7 @@
   }
 
   
-@container (inline-size > 728px) {
+@container (inline-size > 727px) {
     
   .article__content:nth-child(odd) {
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);

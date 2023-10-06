@@ -4,13 +4,14 @@
 Если посоветуете что можно почитать дополнительно (ссылки на статьи)
 с которыми стоит ознакомится, то вообще круто. */
 
+html {
+  background: url(../images/cover-image-dark.png) no-repeat fixed center / cover;
+}
+
 .page {
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   padding: var(--mobile-content-margin);
   container: page / inline-size;
+  
 }
 
 .header {
@@ -23,7 +24,7 @@
 .content {
   display: grid;
   gap: 50px;
-  margin: 50px 0 40px;
+  margin: 50px 0;
 }
 
 .footer {
@@ -40,7 +41,7 @@
   }
 }
 
-@container (inline-size > 728px) {
+@container (inline-size > 727px) {
 
   .content {
     gap: 80px;
@@ -58,7 +59,7 @@
   }
 }
 
-@container (inline-size > 984px) {
+@container (inline-size > 985px) {
 
   .header {
     gap: 159px;

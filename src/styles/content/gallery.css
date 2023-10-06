@@ -10,7 +10,7 @@
     container: gallery-item / inline-size;
 }
 
-@container (inline-size > 728px) {
+@container (inline-size > 727px) {
     
     .gallery {
         grid-template-columns: repeat(3, auto);

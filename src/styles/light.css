@@ -10,10 +10,10 @@
     --text-color: var(--sinister-minister);
     --text-shadow-header: 4px 4px 0 var(--accent-color);
     --text-shadow-footer: 2px 2px 0 var(--accent-color);
-    --text-shadow-link: 1px 1px 0 var(--accent-color);
+    --text-shadow-link: 1.3px 1.3px 0 var(--accent-color);
     }
 
-    .page.theme_auto {
+    html:has(.page.theme_auto) {
       background-image: url(../images/cover-image-light.png);
     }
 
@@ -35,8 +35,7 @@
   --text-color: var(--sinister-minister);
   --text-shadow-header: 4px 4px 0 var(--accent-color);
   --text-shadow-footer: 2px 2px 0 var(--accent-color);
-  --text-shadow-link: 1px 1px 0 var(--accent-color);
-  background-image: url(../images/cover-image-light.png);
+  --text-shadow-link: 1.3px 1.3px 0 var(--accent-color);
 }
 
 .page.theme_light .header__decor-text {
@@ -45,4 +44,8 @@
 
 .page.theme_light .decorated-zone::before {
   background-image: none;
+}
+
+html:has(.page.theme_light) {
+  background-image: url(../images/cover-image-light.png);
 }

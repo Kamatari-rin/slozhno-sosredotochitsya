@@ -10,7 +10,7 @@
 }
 
 .advice__list-title {
-    font-family: var(--main-font, sans-serif);
+    font-family: var(--main-font, monospace);
     font-size: var(--default-font-size);
     font-style: normal;
     font-weight: var(--default-font-weight);
@@ -20,7 +20,7 @@
 }
 
 .advice__list-text {
-    font-family: var(--main-font, sans-serif);
+    font-family: var(--main-font, monospace);
     font-size: var(--default-font-size);
     font-style: normal;
     font-weight: var(--default-font-weight);

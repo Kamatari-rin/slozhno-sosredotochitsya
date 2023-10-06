@@ -12,7 +12,7 @@
   }
   
   .header__theme-menu-button {
-    font-family: var(--main-font, sans-serif);
+    font-family: var(--main-font, monospace);
     font-size: var(--default-font-size);
     text-transform: lowercase;
     background-color: transparent;
@@ -39,14 +39,14 @@
     pointer-events: none;
   }
 
-  @container (inline-size > 728px) {
+  @container (inline-size > 727px) {
 
     .header .header__theme-menu {
       margin-block-start: 171px;
     }
   }
 
-  @container (inline-size > 984px) {
+  @container (inline-size > 985px) {
 
     .header .header__theme-menu {
       justify-content: center;

@@ -25,19 +25,13 @@
 .header__decor-text {
   display: block;
   position: absolute;
-  inset-inline-end: 38px;
+  inset-inline-end: 30px;
   margin: 0;
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, monospace);
   font-size: var(--default-font-size);
   font-weight: var(--default-font-weight);
+  text-transform: uppercase;
   font-style: normal;
   line-height: 138%;
   color: var(--accent-color);
-}
-
-@container (inline-size > 728px) {
-
-  .header__decor-text {
-    inset-inline-end: 30px;
-  }
 }
