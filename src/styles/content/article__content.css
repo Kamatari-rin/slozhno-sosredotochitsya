@@ -1,5 +1,6 @@
 .article__content {
     display: grid;
+    align-items: start;
     gap: 20px;
     container: article__content / inline-size;
   }
@@ -18,31 +19,18 @@
     
   .article__content:nth-child(odd) {
     grid-template-columns: minmax(236px, 315px) minmax(472px, calc(100vw - 315px));
-    gap: 20px;
   }
 
-  .article__content:nth-child(1) :not(.article__content-title) {
-    grid-column: 2 / 3;
-  }
-
-  .article__content:nth-child(2) .article__content-title {
+  .article__content:nth-child(1) .article__content-title {
+    grid-row: 1 / span 2;
     max-inline-size: 236px;
   }
 }
 
 @container (inline-size > 984px) {
   
-  .article__content:nth-child(2) {
-    grid-template-columns: repeat(3, minmax(315px, calc(100% / 3)));
-    align-items: start;
-    gap: 20px;
-  }
-
-  .article__content:nth-child(2) :not(.article__content-title) {
-    grid-row: 2 / 3;
-  }
-
   .article__content:nth-child(2) .article__content-title {
+    grid-column: 1 / span 3;
     max-inline-size: 315px;
   }
 }
