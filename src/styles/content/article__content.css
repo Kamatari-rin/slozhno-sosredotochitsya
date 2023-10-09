@@ -16,14 +16,17 @@
 
   
 @container (inline-size > 727px) {
-    
+
   .article__content:nth-child(odd) {
     grid-template-columns: minmax(236px, 315px) minmax(472px, calc(100vw - 315px));
   }
 
+  .article__content .article__content-title {
+    max-inline-size: 236px;
+  }
+
   .article__content:nth-child(1) .article__content-title {
     grid-row: 1 / span 2;
-    max-inline-size: 236px;
   }
 }
 
